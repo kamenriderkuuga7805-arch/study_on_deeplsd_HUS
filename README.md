@@ -52,19 +52,30 @@ Trong quá trình thực hiện bài toán thực nghiệm, dự án đối mặ
 
 ## 🚀 Hướng dẫn cài đặt và chạy dự án
 Do đây là dự án được chạy từ weights có sẵn của tác giả gốc nên cần thực hiện 1 vài bước cài đặt trước khi chạy thành công:
-- Cài đặt mã nguồn và môi trường
+- Cài đặt mã nguồn và môi trường:
+
 %cd /content
+
 !git clone --recurse-submodules https://github.com/cvg/DeepLSD.git
+
 %cd DeepLSD
+
 !bash quickstart_install.sh
+
 !pip install pytlsd
 
 - Cài weights sẵn:
+
 !mkdir weights
+
 !wget https://cvg-data.inf.ethz.ch/DeepLSD/deeplsd_wireframe.tar -O weights/deeplsd_wireframe.tar
+
 !wget https://cvg-data.inf.ethz.ch/DeepLSD/deeplsd_md.tar -O weights/deeplsd_md.tar
+
 !pip install pytlsd
 
-- Clone repository
+- Clone repository:
+
 git clone https://github.com/kamenriderkuuga7805-arch/study_on_deeplsd_HUS.git
+
 cd study_on_deeplsd_HUS
