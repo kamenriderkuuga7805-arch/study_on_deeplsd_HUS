@@ -4,6 +4,8 @@
 Dự án tập trung nghiên cứu, cài đặt thử nghiệm và ứng dụng mạng nơ-ron sâu **DeepLSD (Deep Line Segment Detector)** để tự động phát hiện các đoạn thẳng từ ảnh kỹ thuật số trên môi trường Python.  
 Bài toán tiếp cận theo hướng tham khảo và cài lại để kiểm chứng từ các mô hình đã được huấn luyện sẵn để trích xuất các đoạn thẳng với độ chính xác cao ở cấp độ pixel dưới dạng các ma trận tọa độ dòng.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nmM5JDjfC568SmrWyYc-rFnM_b18MsqN#scrollTo=pCDBt4IK1aa2)
+
 Mô hình ứng dụng kết hợp:
 - **DeepLSD**: Tận dụng cả đặc trưng vùng và đặc trưng biên (Gradient) để tối ưu hóa việc nhận diện đoạn thẳng một cách liền mạch.
 - **Pre-trained Weights**: Sử dụng các bộ trọng số đã tối ưu sẵn từ nhóm tác giả (`deeplsd_md` và `deeplsd_wireframe`) phục vụ cho việc suy luận nhanh.
